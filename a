@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <meta name="msapplication-TileColor" content="#6bb6ff">
+  <meta name="theme-color" content="#6bb6ff">
+  <link rel="pingback" href="https://pokomichi.com/xmlrpc.php">
+  <title>【iPhone】ページのHTMLソースをSafariやView Sourceアプリで確認する方法 | ぽこみち日和</title>
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="ぽこみち日和 &raquo; フィード" href="https://pokomichi.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="ぽこみち日和 &raquo; コメントフィード" href="https://pokomichi.com/comments/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/pokomichi.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='sng-stylesheet-css'  href='https://pokomichi.com/wp-content/themes/sango-theme/style.css?ver1_8_6' type='text/css' media='all' />
+<link rel='stylesheet' id='sng-option-css'  href='https://pokomichi.com/wp-content/themes/sango-theme/entry-option.css?ver1_8_6' type='text/css' media='all' />
+<link rel='stylesheet' id='sng-googlefonts-css'  href='https://fonts.googleapis.com/css?family=Quicksand%3A500%2C700&#038;display=swap' type='text/css' media='all' />
+<link rel='stylesheet' id='sng-fontawesome5-css'  href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://pokomichi.com/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://pokomichi.com/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='widgetopts-styles-css'  href='https://pokomichi.com/wp-content/plugins/widget-options/assets/css/widget-options.css' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='https://pokomichi.com/wp-content/themes/sango-theme-child/style.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<link rel='https://api.w.org/' href='https://pokomichi.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pokomichi.com/xmlrpc.php?rsd" />
+<link rel="canonical" href="https://pokomichi.com/iphone-view-source" />
+<link rel='shortlink' href='https://pokomichi.com/?p=5566' />
+<link rel="alternate" type="application/json+oembed" href="https://pokomichi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpokomichi.com%2Fiphone-view-source" />
+<link rel="alternate" type="text/xml+oembed" href="https://pokomichi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpokomichi.com%2Fiphone-view-source&#038;format=xml" />
+<meta property="og:title" content="【iPhone】ページのHTMLソースをSafariやView Sourceアプリで確認する方法" />
+<meta property="og:description" content="ページ制作やブログ運営をしていると、PCを持っていない出先でもちょっとHTMLソースを確認したいことがあります。 iPhoneでもHTMLソースを簡単に見ることができます。 今回はそんなぽこみちと同じ要望がある方むけにそ ... " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pokomichi.com/iphone-view-source" />
+<meta property="og:image" content="https://pokomichi.com/wp-content/uploads/2018/07/IMG_6AE4EA5452EE-1.jpeg" />
+<meta name="thumbnail" content="https://pokomichi.com/wp-content/uploads/2018/07/IMG_6AE4EA5452EE-1.jpeg" />
+<meta property="og:site_name" content="ぽこみち日和" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="fb:app_id" content="152591965314447">	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-101774562-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	<link rel="icon" href="https://pokomichi.com/wp-content/uploads/2019/01/cropped-icon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://pokomichi.com/wp-content/uploads/2019/01/cropped-icon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://pokomichi.com/wp-content/uploads/2019/01/cropped-icon-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://pokomichi.com/wp-content/uploads/2019/01/cropped-icon-1-270x270.png" />
+<style>
+a {color: #4f96f6;}
+.main-c, .has-sango-main-color {color: #6bb6ff;}
+.main-bc, .has-sango-main-background-color {background-color: #6bb6ff;}
+.main-bdr, #inner-content .main-bdr {border-color:  #6bb6ff;}
+.pastel-c, .has-sango-pastel-color {color: #c8e4ff; }
+.pastel-bc, .has-sango-pastel-background-color, #inner-content .pastel-bc {background-color: #c8e4ff;}
+.accent-c, .has-sango-accent-color {color: #ffb36b;}
+.accent-bc, .has-sango-accent-background-color {background-color: #ffb36b;}
+.header, #footer-menu, .drawer__title {background-color: #58a9ef;}
+#logo a {color: #ffffff;}
+.desktop-nav li a , .mobile-nav li a, #footer-menu a ,.copyright, #drawer__open, .header-search__open, .drawer__title {color: #ffffff;}
+.drawer__title .close span, .drawer__title .close span:before {background: #ffffff;}
+.desktop-nav li:after {background: #ffffff;}
+.mobile-nav .current-menu-item {border-bottom-color: #ffffff;}
+.widgettitle {color: #ffffff;background-color:#6bb6ff;}
+.footer {background-color: #e0e4eb;}
+.footer, .footer a, .footer .widget ul li a {color: #3c3c3c;}
+#toc_container .toc_title, .entry-content .ez-toc-title-container, #footer_menu .raised, .pagination a, .pagination span, #reply-title:before , .entry-content blockquote:before ,.main-c-before li:before ,.main-c-b:before{color: #6bb6ff;}
+#searchsubmit, #toc_container .toc_title:before, .ez-toc-title-container:before, .cat-name, .pre_tag > span, .pagination .current, #submit ,.withtag_list > span,.main-bc-before li:before {background-color: #6bb6ff;}
+#toc_container, #ez-toc-container, h3 ,.li-mainbdr ul,.li-mainbdr ol {border-color: #6bb6ff;}
+.search-title i ,.acc-bc-before li:before {background: #ffb36b;}
+.li-accentbdr ul, .li-accentbdr ol {border-color: #ffb36b;}
+.pagination a:hover ,.li-pastelbc ul, .li-pastelbc ol {background: #c8e4ff;}
+body {font-size: 100%;}
+@media only screen and (min-width: 481px) {
+body {font-size: 107%;}
+}
+@media only screen and (min-width: 1030px) {
+body {font-size: 107%;}
+}
+.totop {background: #5ba9f7;}
+.header-info a {color: #FFF; background: linear-gradient(95deg,#738bff,#85e3ec);}
+.fixed-menu ul {background: #FFF;}
+.fixed-menu a {color: #a2a7ab;}
+.fixed-menu .current-menu-item a , .fixed-menu ul li a.active {color: #6bb6ff;}
+.post-tab {background: #FFF;} .post-tab>div {color: #a7a7a7} .post-tab > div.tab-active{background: linear-gradient(45deg,#329fff,#0c8dff)}
+</style>
+</head>
+<body class="post-template-default single single-post postid-5566 single-format-standard fa5">
+  <div id="container">
+    <header class="header header--center">
+        <div id="drawer">
+    <input type="checkbox" id="drawer__input" class="drawer--unshown" >
+    <label id="drawer__open" for="drawer__input"><i class="fas fa-bars"></i></label>
+    <label class="drawer--unshown" id="drawer__close-cover" for="drawer__input"></label>
+    <div id="drawer__content">
+      <div class="drawer__title dfont">MENU<label class="close" for="drawer__input"><span></span></label></div>
+      <div id="search-3" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="https://pokomichi.com/">
+  <div>
+    <input type="search" id="s" class="searchform__input" name="s" value="" placeholder="検索" />
+    <button type="submit" id="searchsubmit" class="searchform__submit"><i class="fas fa-search"></i></button>
+  </div>
+</form></div><div id="categories-8" class="widget widget_categories"><h4 class="widgettitle has-fa-before">カテゴリー</h4>		<ul>
+				<li class="cat-item cat-item-11"><a href="https://pokomichi.com/category/iphone">iPhone便利機能 <span class="entry-count dfont">35</span></a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://pokomichi.com/category/app">アプリ活用 <span class="entry-count dfont">57</span></a>
+<ul class='children'>
+	<li class="cat-item cat-item-37"><a href="https://pokomichi.com/category/app/line">LINE <span class="entry-count dfont">14</span></a>
+</li>
+	<li class="cat-item cat-item-12"><a href="https://pokomichi.com/category/app/twitter">Twitter <span class="entry-count dfont">11</span></a>
+</li>
+	<li class="cat-item cat-item-28"><a href="https://pokomichi.com/category/app/facebook">Facebook <span class="entry-count dfont">4</span></a>
+</li>
+	<li class="cat-item cat-item-3"><a href="https://pokomichi.com/category/app/instagram">Instagram <span class="entry-count dfont">3</span></a>
+</li>
+	<li class="cat-item cat-item-232"><a href="https://pokomichi.com/category/app/clipbox">Clipbox <span class="entry-count dfont">6</span></a>
+</li>
+	<li class="cat-item cat-item-304"><a href="https://pokomichi.com/category/app/youtube">YouTube <span class="entry-count dfont">1</span></a>
+</li>
+	<li class="cat-item cat-item-382"><a href="https://pokomichi.com/category/app/tiktok">Tik Tok <span class="entry-count dfont">2</span></a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-91"><a href="https://pokomichi.com/category/toyama-info">富山情報 <span class="entry-count dfont">6</span></a>
+<ul class='children'>
+	<li class="cat-item cat-item-620"><a href="https://pokomichi.com/category/toyama-info/toyama-gourmet">富山グルメ <span class="entry-count dfont">3</span></a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-138"><a href="https://pokomichi.com/category/web">Webのあれこれ <span class="entry-count dfont">69</span></a>
+<ul class='children'>
+	<li class="cat-item cat-item-46"><a href="https://pokomichi.com/category/web/wordpress">WordPress <span class="entry-count dfont">24</span></a>
+</li>
+	<li class="cat-item cat-item-44"><a href="https://pokomichi.com/category/web/pc-tip">パソコン便利機能 <span class="entry-count dfont">4</span></a>
+</li>
+	<li class="cat-item cat-item-199"><a href="https://pokomichi.com/category/web/mac">Mac <span class="entry-count dfont">8</span></a>
+</li>
+	<li class="cat-item cat-item-81"><a href="https://pokomichi.com/category/web/music">iTunes <span class="entry-count dfont">1</span></a>
+</li>
+	<li class="cat-item cat-item-41"><a href="https://pokomichi.com/category/web/base">BASE <span class="entry-count dfont">3</span></a>
+</li>
+	<li class="cat-item cat-item-227"><a href="https://pokomichi.com/category/web/crowdfunding">クラウドファンディング <span class="entry-count dfont">2</span></a>
+</li>
+	<li class="cat-item cat-item-100"><a href="https://pokomichi.com/category/web/polca">polca <span class="entry-count dfont">10</span></a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-433"><a href="https://pokomichi.com/category/tips">豆知識 <span class="entry-count dfont">14</span></a>
+<ul class='children'>
+	<li class="cat-item cat-item-32"><a href="https://pokomichi.com/category/tips/sim">格安SIM <span class="entry-count dfont">7</span></a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-513"><a href="https://pokomichi.com/category/spa">日帰り温泉 <span class="entry-count dfont">31</span></a>
+</li>
+	<li class="cat-item cat-item-536"><a href="https://pokomichi.com/category/hiroshima-info">広島情報 <span class="entry-count dfont">100</span></a>
+<ul class='children'>
+	<li class="cat-item cat-item-77"><a href="https://pokomichi.com/category/hiroshima-info/hiroshima-gourmet">広島グルメ <span class="entry-count dfont">85</span></a>
+</li>
+	<li class="cat-item cat-item-19"><a href="https://pokomichi.com/category/hiroshima-info/hiroshima-spot">広島おでかけ <span class="entry-count dfont">13</span></a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-209"><a href="https://pokomichi.com/category/travel">旅ブログ <span class="entry-count dfont">62</span></a>
+<ul class='children'>
+	<li class="cat-item cat-item-328"><a href="https://pokomichi.com/category/travel/sightseeing">観光情報 <span class="entry-count dfont">31</span></a>
+</li>
+	<li class="cat-item cat-item-327"><a href="https://pokomichi.com/category/travel/gourmet">グルメ <span class="entry-count dfont">22</span></a>
+</li>
+	<li class="cat-item cat-item-214"><a href="https://pokomichi.com/category/travel/travel-recommend">旅行のおすすめ情報 <span class="entry-count dfont">3</span></a>
+</li>
+	<li class="cat-item cat-item-301"><a href="https://pokomichi.com/category/travel/thai">タイ旅行 <span class="entry-count dfont">5</span></a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-496"><a href="https://pokomichi.com/category/camp">キャンプ <span class="entry-count dfont">2</span></a>
+</li>
+	<li class="cat-item cat-item-210"><a href="https://pokomichi.com/category/pokomichi">ぽこみちの活動 <span class="entry-count dfont">40</span></a>
+<ul class='children'>
+	<li class="cat-item cat-item-65"><a href="https://pokomichi.com/category/pokomichi/pokomichi-blog">ブログ <span class="entry-count dfont">28</span></a>
+</li>
+	<li class="cat-item cat-item-165"><a href="https://pokomichi.com/category/pokomichi/somemono">藍染・染物 <span class="entry-count dfont">7</span></a>
+</li>
+	<li class="cat-item cat-item-193"><a href="https://pokomichi.com/category/pokomichi/page-production">ページ制作 <span class="entry-count dfont">3</span></a>
+</li>
+	<li class="cat-item cat-item-401"><a href="https://pokomichi.com/category/pokomichi/yzansalon">わいざんオンラインサロン <span class="entry-count dfont">1</span></a>
+</li>
+	<li class="cat-item cat-item-434"><a href="https://pokomichi.com/category/pokomichi/entertainment">イベントパフォーマー <span class="entry-count dfont">1</span></a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-387"><a href="https://pokomichi.com/category/life">ぽこみち奮闘日記 <span class="entry-count dfont">49</span></a>
+<ul class='children'>
+	<li class="cat-item cat-item-640"><a href="https://pokomichi.com/category/life/parenting">子育て <span class="entry-count dfont">7</span></a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-285"><a href="https://pokomichi.com/category/diet-gym">ダイエットジム <span class="entry-count dfont">59</span></a>
+</li>
+	<li class="cat-item cat-item-562"><a href="https://pokomichi.com/category/school">学び <span class="entry-count dfont">140</span></a>
+<ul class='children'>
+	<li class="cat-item cat-item-565"><a href="https://pokomichi.com/category/school/robot">ロボット教室 <span class="entry-count dfont">61</span></a>
+</li>
+	<li class="cat-item cat-item-566"><a href="https://pokomichi.com/category/school/english">英会話教室 <span class="entry-count dfont">70</span></a>
+</li>
+	<li class="cat-item cat-item-637"><a href="https://pokomichi.com/category/school/kids-english">子ども向け英会話 <span class="entry-count dfont">9</span></a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-474"><a href="https://pokomichi.com/category/housework">家事代行 <span class="entry-count dfont">47</span></a>
+</li>
+		</ul>
+			</div>    </div>
+  </div>
+      <div id="inner-header" class="wrap cf">
+    <div id="logo" class="h1 dfont">
+    <a href="https://pokomichi.com">
+              <img src="https://pokomichi.com/wp-content/uploads/2019/01/logo.png" alt="ぽこみち日和">
+                </a>
+  </div>
+  <div class="header-search">
+      <label class="header-search__open" for="header-search-input"><i class="fas fa-search"></i></label>
+    <input type="checkbox" class="header-search__input" id="header-search-input" onclick="document.querySelector('.header-search__modal .searchform__input').focus()">
+  <label class="header-search__close" for="header-search-input"></label>
+  <div class="header-search__modal">
+    <form role="search" method="get" id="searchform" class="searchform" action="https://pokomichi.com/">
+  <div>
+    <input type="search" id="s" class="searchform__input" name="s" value="" placeholder="検索" />
+    <button type="submit" id="searchsubmit" class="searchform__submit"><i class="fas fa-search"></i></button>
+  </div>
+</form>  </div>
+</div>  <nav class="desktop-nav clearfix"><ul id="menu-%e5%9f%ba%e6%9c%ac%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="menu"><li id="menu-item-8895" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-8895"><a href="https://pokomichi.com/blogger">プロフィール</a></li>
+<li id="menu-item-2653" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2653"><a href="https://pokomichi.com/blog">ブログ一覧</a></li>
+<li id="menu-item-2652" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2652"><a href="https://pokomichi.com/somemono">ぽこみちの藍染</a></li>
+<li id="menu-item-8079" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8079"><a href="https://pokomichi.com/consulting">チームコンサルティング</a></li>
+<li id="menu-item-6481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6481"><a href="https://pokomichi.com/contact">お問い合わせ</a></li>
+</ul></nav></div>
+<nav class="mobile-nav"><ul id="menu-%e5%9f%ba%e6%9c%ac%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-8895"><a href="https://pokomichi.com/blogger">プロフィール</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2653"><a href="https://pokomichi.com/blog">ブログ一覧</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2652"><a href="https://pokomichi.com/somemono">ぽこみちの藍染</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8079"><a href="https://pokomichi.com/consulting">チームコンサルティング</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6481"><a href="https://pokomichi.com/contact">お問い合わせ</a></li>
+</ul></nav>    </header>
+      <div id="content" class="one-column">
+    <div id="inner-content" class="wrap cf">
+      <main id="main" class="m-all t-2of3 d-5of7 cf">
+                  <article id="entry" class="cf post-5566 post type-post status-publish format-standard has-post-thumbnail category-iphone tag-safari tag-html tag-view-source">
+            <header class="article-header entry-header">
+	<nav id="breadcrumb" class="breadcrumb"><ul itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://pokomichi.com" itemprop="item"><span itemprop="name">ホーム</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://pokomichi.com/category/iphone" itemprop="item"><span itemprop="name">iPhone便利機能</span></a><meta itemprop="position" content="2" /></li></ul></nav>		<h1 class="entry-title single-title">【iPhone】ページのHTMLソースをSafariやView Sourceアプリで確認する方法</h1>
+	<!-- ここを編集 -->
+	<p class="entry-meta vcard dfont">
+				<time class="pubdate entry-time" datetime="2018-07-20T15:32:20+09:00">2018/07/20</time>
+					</p>
+	<!-- ここまで編集 -->
+    		</header>
+<section class="entry-content cf">
+  <p>ページ制作やブログ運営をしていると、PCを持っていない出先でもちょっとHTMLソースを確認したいことがあります。</p>
+<p>iPhoneでもHTMLソースを簡単に見ることができます。</p>
+<p>今回はそんなぽこみちと同じ要望がある方むけにその方法をご紹介いたします。</p>
+<div class="widget_text sponsored"><div class="textwidget custom-html-widget">
+<p style="margin-top: 2em;text-align: center; font-size: 80%;">スポンサーリンク</p>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 記事中 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6783005062045227"
+     data-ad-slot="6071921081"
+     data-ad-format="rectangle"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div></div><div id="toc_container" class="no_bullets"><p class="toc_title">目次</p><ul class="toc_list"><li><a href="#View_Source">View Sourceアプリを使う</a><ul><li><a href="#View_Source-2">View Sourceのインストール</a></li><li><a href="#View_SourceHTML">View SourceでHTMLを見る方法</a></li><li><a href="#HTML">HTML内で検索をかける方法</a></li><li><a href="#URLHTMLCSS">URLをコピーして、HTMLやCSSのソース表示も可能</a></li></ul></li><li><a href="#iPhoneSafari">iPhoneのSafariでブックマークレットを使う</a><ul><li><a href="#i">ブックマークレートの準備</a></li><li><a href="#i-2">保存したブックマークレートの使い方</a></li></ul></li><li><a href="#i-3">まとめ</a></li></ul></div>
+<h2><span id="View_Source">View Sourceアプリを使う</span></h2>
+<p>個人的にはView Sourceアプリを使うのが、便利で楽なのでおすすめです。</p>
+<h3><span id="View_Source-2">View Sourceのインストール</span></h3>
+<p>まずは、View Sourceをインストールしましょう。</p>
+<p>App Storeで「view source」で検索すると一番上に表示されるので、インストールしてください。</p>
+<p><img class="alignnone size-full wp-image-5568" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9452.jpg" alt="" width="850" height="773" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9452.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9452-300x273.jpg 300w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9452-768x698.jpg 768w" sizes="(max-width: 850px) 100vw, 850px" /></p>
+<p>120円の有料アプリもあるのですが、無料のアプリで十分ですよ！</p>
+<p><a href="https://itunes.apple.com/jp/app/view-source/id1041817284?mt=8" target="_blank" rel="noopener">View SourceのiPhoneアプリはこちら</a></p>
+<h3><span id="View_SourceHTML">View SourceでHTMLを見る方法</span></h3>
+<p>まずは、HTMLソースを見たいページを開きましょう。</p>
+<p><img class="alignnone wp-image-5573" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9461.jpg" alt="" width="400" height="692" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9461.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9461-173x300.jpg 173w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9461-768x1328.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9461-592x1024.jpg 592w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>下部メニューの「共有ボタン」をタップします。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5574" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9462.jpg" alt="" width="400" height="690" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9462.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9462-174x300.jpg 174w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9462-768x1325.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9462-593x1024.jpg 593w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>共有メニューの中にある、「View Source」をタップします。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5581" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9460-1.jpg" alt="" width="400" height="689" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9460-1.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9460-1-174x300.jpg 174w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9460-1-768x1323.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9460-1-595x1024.jpg 595w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>View Sourceのアプリが開いて、ページのHTMLソースを確認することができます。</p>
+<div class="memo "><div class="memo_ttl dfont"> View Sourceがない場合</div>
+<p><img class="alignnone wp-image-5575" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9463.jpg" alt="" width="400" height="690" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9463.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9463-174x300.jpg 174w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9463-768x1325.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9463-593x1024.jpg 593w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>共有メニューの「その他」をタップしてください。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5576" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9464.jpg" alt="" width="400" height="693" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9464.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9464-173x300.jpg 173w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9464-768x1330.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9464-591x1024.jpg 591w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>その他メニューの中にある「View Source」をオンにすれば、表示されるようになります。</p>
+</div>
+<h3><span id="HTML">HTML内で検索をかける方法</span></h3>
+<p>HTMLソースの中で特定の単語で検索することもできます。</p>
+<p><img class="alignnone wp-image-5577" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9466.jpg" alt="" width="400" height="696" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9466.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9466-172x300.jpg 172w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9466-768x1337.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9466-588x1024.jpg 588w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>右上の「共有ボタン」をタップします。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5578" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9467.jpg" alt="" width="400" height="688" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9467.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9467-174x300.jpg 174w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9467-768x1322.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9467-595x1024.jpg 595w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>ポップアップメニューが表示されるので「Find」をタップします。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5571" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9459.jpg" alt="" width="400" height="687" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9459.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9459-175x300.jpg 175w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9459-768x1318.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9459-597x1024.jpg 597w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>検索窓が表示されるので、検索したい文字をタイプすると該当箇所が黄色でハイライトされます。</p>
+<p>検索ワード間の移動は検索窓の左にある、上下の矢印をタップします。</p>
+<h3><span id="URLHTMLCSS">URLをコピーして、HTMLやCSSのソース表示も可能</span></h3>
+<p>今回は開いているページからの表示をメインでご紹介しましたが、View Sourceに直接URLを貼り付けてHTMLソースを見ることもできます。</p>
+<p><img class="alignnone wp-image-5569" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9449.jpg" alt="" width="400" height="690" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9449.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9449-174x300.jpg 174w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9449-768x1325.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9449-594x1024.jpg 594w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>View Sourceアプリの上部の入力枠にURLを入力（貼り付け）して検索をかければOKです。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5572" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9460.jpg" alt="" width="400" height="689" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9460.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9460-174x300.jpg 174w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9460-768x1323.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9460-595x1024.jpg 595w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>HTMLだけではなくCSSを見ることができます。</p>
+<h2><span id="iPhoneSafari">iPhoneのSafariでブックマークレットを使う</span></h2>
+<p>Safariを使ってHTMLソースも見るとができます。</p>
+<p>ただ、この方法だと<strong>見ることができないページもあるので、ぽこみちはView Sourceをメインで使っています。</strong></p>
+<h3><span id="i">ブックマークレートの準備</span></h3>
+<p><img class="alignnone wp-image-5573" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9461.jpg" alt="" width="400" height="692" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9461.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9461-173x300.jpg 173w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9461-768x1328.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9461-592x1024.jpg 592w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>どのページでも良いので、まずブックマークにページ保存します。※すでにブックマークにあるものを使用しても良いです。</p>
+<p>ページ下部の「共有ボタン」をタップします。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5586" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9477.jpg" alt="" width="400" height="692" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9477.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9477-173x300.jpg 173w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9477-768x1328.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9477-592x1024.jpg 592w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>「ブックマークに追加」をタップします。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5587" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9479.jpg" alt="" width="400" height="688" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9479.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9479-174x300.jpg 174w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9479-768x1322.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9479-595x1024.jpg 595w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>わかりやすいようにブックマーク名は「HTMLソース」にして保存します。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5588" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9480.jpg" alt="" width="400" height="692" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9480.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9480-173x300.jpg 173w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9480-768x1328.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9480-592x1024.jpg 592w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>保存ができたら、下部メニューから「ブックマーク」を開きます。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5589" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9481.jpg" alt="" width="400" height="689" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9481.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9481-174x300.jpg 174w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9481-768x1323.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9481-595x1024.jpg 595w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>右下にある「編集」をタップします。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5590" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9483.jpg" alt="" width="400" height="685" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9483.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9483-175x300.jpg 175w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9483-768x1316.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9483-598x1024.jpg 598w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>先ほど保存したページをタップして、編集画面を開きます。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5591" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9484.jpg" alt="" width="400" height="690" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9484.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9484-174x300.jpg 174w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9484-768x1325.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9484-594x1024.jpg 594w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>HTMLソースの下にあるページのURL部分に下部の貼り付けコードをコピーして貼り付けて、「完了」をタップします。</p>
+  <div class="sng-box box3">
+<p><span class="bold">《貼り付けコード》</span></p>
+<p><code>javascript:(function()%7Bvar%20d%3Ddocument%2Cs%2Ce%3Bvar%20el%3Dd.getElementById('snpy')%3Bif(typeof%20Snoopy!%3D'undefined')%7BSnoopy.toggle()%3Breturn%7Delse%20if(el)%7Bel.className%3D%2Fclosed%2F.test(el.className)%3Fel.className.replace('closed'%2C'')%3Ael.className%2B'%20closed'%3Breturn%7Ds%3Dd.createElement('link')%3Bs.setAttribute('href'%2C'http%3A%2F%2Fsnoopy-assets.allmarkedup.com%2Fsnoopy-min.css')%3Bs.setAttribute('rel'%2C'stylesheet')%3Bs.setAttribute('type'%2C'text%2Fcss')%3Bd.getElementsByTagName('head')%5B0%5D.appendChild(s)%3Be%3Dd.createElement('script')%3Be.setAttribute('src'%2C'http%3A%2F%2Fsnoopy-assets.allmarkedup.com%2Fsnoopy-min.js')%3Bd.getElementsByTagName('body')%5B0%5D.appendChild(e)%7D)()%3B</code></p>
+</div>
+<p>これで、ブックマークレートの準備は完了です。</p>
+<h3><span id="i-2">保存したブックマークレートの使い方</span></h3>
+<p>ブックマークレートの使い方は簡単です。</p>
+<p>HTMLソースを見たいページで、ブックマークに保存したブックマークレートを開くだけです。</p>
+<p>このページだと見れなかったので、ちょうど開いたスターバックスのページで試してみました。</p>
+<p><img class="alignnone wp-image-5585" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9468.jpg" alt="" width="400" height="694" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9468.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9468-173x300.jpg 173w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9468-768x1333.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9468-590x1024.jpg 590w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>画像のように初期画面はoverviewタブでページの概要が開かれます。</p>
+<p>&nbsp;</p>
+<p><img class="alignnone wp-image-5592" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9486.jpg" alt="" width="400" height="691" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9486.jpg 850w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9486-174x300.jpg 174w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9486-768x1327.jpg 768w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9486-593x1024.jpg 593w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p>「view source」タブをタップするとページのHTMLソースを見ることができます。</p>
+<div class="widget_text sponsored"><div class="textwidget custom-html-widget">
+<p style="margin-top: 2em;text-align: center; font-size: 80%;">スポンサーリンク</p>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 記事中 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6783005062045227"
+     data-ad-slot="6071921081"
+     data-ad-format="rectangle"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div></div><h2><span id="i-3">まとめ</span></h2>
+<p>iPhoneでHTMLソースが見ることができるとは思ってなかったので、ぽこみち自身このブログで紹介した方法を知ったときは驚きました。</p>
+<p>ちょっとしたHTMLソースの確認をiPhoneでできるというのは本当に便利です。</p>
+<p>外出先でHTMLを見ないといけない人はぜひ活用してみてください。</p>
+<p>とはいえ、編集や書き換えなどは紹介した方法ではできないので、修正が必要なときはパソコンを使ってやりましょうね。</p>
+<p>&nbsp;</p>
+<div class="widget_text sponsored dfont"><div class="textwidget custom-html-widget"><p style="margin-top: 2em;text-align: center; font-size: 80%;">スポンサーリンク</p>
+<div>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 記事下 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6783005062045227"
+     data-ad-slot="6726349596"
+     data-ad-format="rectangle"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div></div></section><footer class="article-footer">
+  <aside>
+    <div class="footer-contents">
+        <div class="sns-btn">
+    <span class="sns-btn__title dfont">SHARE</span>      <ul>
+        <!-- twitter -->
+        <li class="tw sns-btn__item">
+          <a href="https://twitter.com/share?url=https%3A%2F%2Fpokomichi.com%2Fiphone-view-source&text=%E3%80%90iPhone%E3%80%91%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AEHTML%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92Safari%E3%82%84View+Source%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%EF%BD%9C%E3%81%BD%E3%81%93%E3%81%BF%E3%81%A1%E6%97%A5%E5%92%8C&via=pokomichi_apple" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fab fa-twitter"></i>            <span class="share_txt">ツイート</span>
+          </a>
+                  </li>
+        <!-- facebook -->
+        <li class="fb sns-btn__item">
+          <a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fpokomichi.com%2Fiphone-view-source" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fab fa-facebook"></i>            <span class="share_txt">シェア</span>
+          </a>
+                  </li>
+        <!-- はてなブックマーク -->
+        <li class="hatebu sns-btn__item">
+          <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3A%2F%2Fpokomichi.com%2Fiphone-view-source&title=%E3%80%90iPhone%E3%80%91%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AEHTML%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92Safari%E3%82%84View+Source%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%EF%BD%9C%E3%81%BD%E3%81%93%E3%81%BF%E3%81%A1%E6%97%A5%E5%92%8C" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fa fa-hatebu"></i>
+            <span class="share_txt">はてブ</span>
+          </a>
+                  </li>
+        <!-- LINE -->
+        <li class="line sns-btn__item">
+          <a href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fpokomichi.com%2Fiphone-view-source&text=%E3%80%90iPhone%E3%80%91%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AEHTML%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92Safari%E3%82%84View+Source%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%EF%BD%9C%E3%81%BD%E3%81%93%E3%81%BF%E3%81%A1%E6%97%A5%E5%92%8C" target="_blank" rel="nofollow noopener noreferrer">
+                          <i class="fab fa-line"></i>
+                        <span class="share_txt share_txt_line dfont">LINE</span>
+          </a>
+        </li>
+        <!-- Pocket -->
+        <li class="pkt sns-btn__item">
+          <a href="http://getpocket.com/edit?url=https%3A%2F%2Fpokomichi.com%2Fiphone-view-source&title=%E3%80%90iPhone%E3%80%91%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AEHTML%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92Safari%E3%82%84View+Source%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%EF%BD%9C%E3%81%BD%E3%81%93%E3%81%BF%E3%81%A1%E6%97%A5%E5%92%8C" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fab fa-get-pocket"></i>            <span class="share_txt">Pocket</span>
+          </a>
+                  </li>
+      </ul>
+  </div>
+              <div class="footer-meta dfont">
+                  <p class="footer-meta_title">CATEGORY :</p>
+          <ul class="post-categories">
+	<li><a href="https://pokomichi.com/category/iphone" rel="category tag">iPhone便利機能</a></li></ul>                          <div class="meta-tag">
+            <p class="footer-meta_title">TAGS :</p>
+            <ul><li><a href="https://pokomichi.com/tag/safari" rel="tag">Safari</a></li><li><a href="https://pokomichi.com/tag/html%e3%82%bd%e3%83%bc%e3%82%b9" rel="tag">HTMLソース</a></li><li><a href="https://pokomichi.com/tag/view-source" rel="tag">View Source</a></li></ul>          </div>
+              </div>
+                        <div class="related-posts type_c no_slide" ontouchstart =""><ul>  <li>
+    <a href="https://pokomichi.com/safari">
+      <figure class="rlmg">
+        <img src="https://pokomichi.com/wp-content/uploads/2017/08/IMG_0980-520x300.jpg" alt="【Safari活用】意外と知らないSafariで使える便利な小ネタ">
+      </figure>
+      <div class="rep"><p>【Safari活用】意外と知らないSafariで使える便利な小ネタ</p></div>
+    </a>
+  </li>
+    <li>
+    <a href="https://pokomichi.com/screen-time">
+      <figure class="rlmg">
+        <img src="https://pokomichi.com/wp-content/uploads/2018/09/DB3FE933-4A52-4930-86A9-A3C720CE6A37-520x300.jpeg" alt="【iPhone新機能】iOS12で登場した「スクリーンタイム」の使い方と設定方法">
+      </figure>
+      <div class="rep"><p>【iPhone新機能】iOS12で登場した「スクリーンタイム」の使い方と設定方法</p></div>
+    </a>
+  </li>
+    <li>
+    <a href="https://pokomichi.com/findiphone">
+      <figure class="rlmg">
+        <img src="https://pokomichi.com/wp-content/uploads/2017/10/748F81C2-B8FF-4F51-8C2B-CDA9A06F6928-520x300.jpeg" alt="iPhoneを失くした時に頼れる「iPhoneを探す」の使い方">
+      </figure>
+      <div class="rep"><p>iPhoneを失くした時に頼れる「iPhoneを探す」の使い方</p></div>
+    </a>
+  </li>
+    <li>
+    <a href="https://pokomichi.com/iphone-2">
+      <figure class="rlmg">
+        <img src="https://pokomichi.com/wp-content/uploads/2017/07/IMG_6918-520x300.jpg" alt="【iPhone便利機能】Safariでパスワードを保存する方法">
+      </figure>
+      <div class="rep"><p>【iPhone便利機能】Safariでパスワードを保存する方法</p></div>
+    </a>
+  </li>
+  </ul></div>    </div>
+    	  <div class="author-info pastel-bc">
+	    <div class="author-info__inner">
+	      <div class="tb">
+	        <div class="tb-left">
+	        <div class="author_label">
+	          <span>この記事を書いた人</span>
+	        </div>
+          <div class="author_img"><img alt='ぽこみち' src='https://pokomichi.com/wp-content/uploads/2018/05/pro-100x100.jpg' class='avatar avatar-100 photo' height='100' width='100' /></div>
+	          <dl class="aut">
+              <dt>
+                <a class="dfont" href="https://pokomichi.com/author/hosomichi">
+                  <span>ぽこみち</span>
+                </a>
+              </dt>
+              <dd>編集長</dd>
+	          </dl>
+	        </div>
+          <div class="tb-right">
+            <p>ぽこみち日和編集長。家族が大好きで家族が趣味な30歳。マーケティングパートナーのわいざん（<a href="https://twitter.com/yzan_travel">@yzan_travel</a>）のビジネスパートナーとして、ブログやWebサポート、HP制作、藍染をしています。とにかく2歳の娘と0歳の息子、そして妻がとても大切！（本名：奥野慎一郎）<a href="https://pokomichi.com/blogger">プロフィール</a></p>
+            <div class="follow_btn dfont">
+                              <a class="Twitter" href="https://twitter.com/pokomichi_apple" target="_blank" rel="nofollow noopener noreferrer">Twitter</a>
+                            <a class="Facebook" href="https://www.facebook.com/pokomichi" target="_blank" rel="nofollow noopener noreferrer">Facebook</a>
+                            <a class="Instagram" href="https://www.instagram.com/pokomichi_gram/" target="_blank" rel="nofollow noopener noreferrer">Instagram</a>
+                      </div>
+          </div>
+	      </div>
+	    </div>
+	  </div>
+	  </aside>
+</footer>
+      <script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage":"https://pokomichi.com/iphone-view-source",
+      "headline": "【iPhone】ページのHTMLソースをSafariやView Sourceアプリで確認する方法",
+
+      "image": {
+      "@type": "ImageObject",
+      "url": "https://pokomichi.com/wp-content/uploads/2018/07/IMG_6AE4EA5452EE-1.jpeg",
+      "width":850,
+      "height":567      },
+
+      "datePublished": "2018-07-20T15:32:20+0900",
+      "dateModified": "2018-07-20T15:38:03+0900",
+      "author": {
+      "@type": "Person",
+      "name": "ぽこみち"
+      },
+      "publisher": {
+      "@type": "Organization",
+      "name": "",
+      "logo": {
+      "@type": "ImageObject",
+      "url": ""
+      }
+      },
+      "description": "ページ制作やブログ運営をしていると、PCを持っていない出先でもちょっとHTMLソースを確認したいことがあります。 iPhoneでもHTMLソースを簡単に見ることができます。 今回はそんなぽこみちと同じ要望がある方むけにそ ... "
+      }
+    </script>
+              </article>
+            <div class="prnx_box cf">
+      <a href="https://pokomichi.com/photolayers" class="prnx pr">
+      <p><i class="fas fa-angle-left"></i> 前の記事</p>
+      <div class="prnx_tb">
+                  <figure><img width="160" height="160" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9297EFB0C025-1-160x160.jpeg" class="attachment-thumb-160 size-thumb-160 wp-post-image" alt="" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_9297EFB0C025-1-160x160.jpeg 160w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9297EFB0C025-1-150x150.jpeg 150w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_9297EFB0C025-1-125x125.jpeg 125w" sizes="(max-width: 160px) 100vw, 160px" /></figure>
+          
+        <span class="prev-next__text">【写真合成アプリ】PhotoLayersの使い方｜写真合成や背…</span>
+      </div>
+    </a>
+    
+    <a href="https://pokomichi.com/line-information" class="prnx nx">
+      <p>次の記事 <i class="fas fa-angle-right"></i></p>
+      <div class="prnx_tb">
+        <span class="prev-next__text">【LINEへの情報提供】トークルームの内容や個人情報は流出して…</span>
+                  <figure><img width="160" height="160" src="https://pokomichi.com/wp-content/uploads/2018/07/IMG_AB24043AEA12-1-160x160.jpeg" class="attachment-thumb-160 size-thumb-160 wp-post-image" alt="" srcset="https://pokomichi.com/wp-content/uploads/2018/07/IMG_AB24043AEA12-1-160x160.jpeg 160w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_AB24043AEA12-1-150x150.jpeg 150w, https://pokomichi.com/wp-content/uploads/2018/07/IMG_AB24043AEA12-1-125x125.jpeg 125w" sizes="(max-width: 160px) 100vw, 160px" /></figure>
+              </div>
+    </a>
+  </div>
+                        </main>
+          </div>
+  </div>
+      <footer class="footer">
+                <div id="footer-menu">
+          <div>
+            <a class="footer-menu__btn dfont" href="https://pokomichi.com/"><i class="fas fa-home"></i> HOME</a>
+          </div>
+          <nav>
+            <div class="footer-links cf"><ul id="menu-%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="nav footer-nav cf"><li id="menu-item-12492" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12492"><a href="https://pokomichi.com/blogger">プロフィール</a></li>
+<li id="menu-item-4897" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-4897"><a href="https://pokomichi.com/blog">ブログ一覧</a></li>
+</ul></div>            <a class="privacy-policy-link" href="https://pokomichi.com/privacy-policy">プライバシーポリシー</a>          </nav>
+          <p class="copyright dfont">
+            &copy; 2019            ぽこみち日和            All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/pokomichi.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://pokomichi.com/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tocplus = {"smooth_scroll":"1","visibility_show":"\u8868\u793a","visibility_hide":"\u975e\u8868\u793a","width":"Auto"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://pokomichi.com/wp-content/plugins/table-of-contents-plus/front.min.js'></script>
+<script type='text/javascript' src='https://pokomichi.com/wp-includes/js/wp-embed.min.js'></script>
+    <nav class="fixed-menu"><ul id="menu-%e3%83%a2%e3%83%90%e3%82%a4%e3%83%ab%e5%9b%ba%e5%ae%9a%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="menu"><li id="menu-item-4291" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4291"><a href="https://pokomichi.com"><i class="fa fa-home"></i>ホーム</a></li>
+<li id="menu-item-4292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4292"><a href="#sng_menu"><label for="drawer__input"><i class="fa fa-list-ul" ></i>メニュー</label></a></li>
+<li id="menu-item-6142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6142"><a href="https://pokomichi.com/nav"><i class="fas fa-running"></i>ぽこみちの活動</a></li>
+<li id="menu-item-4294" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4294"><a href="#sng_share"><i class="fa fa-share-alt"></i>シェア</a></li>
+<li id="menu-item-4293" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4293"><a href="#"><i class="fa fa-level-up"></i>トップ</a></li>
+</ul></nav><div class="fixed-menu__follow dfont">
+          </div>
+    <div class="fixed-menu__share sns-dif normal-sns">
+        <div class="sns-btn">
+    <span class="sns-btn__title dfont">SHARE</span>      <ul>
+        <!-- twitter -->
+        <li class="tw sns-btn__item">
+          <a href="https://twitter.com/share?url=https%3A%2F%2Fpokomichi.com%2Fiphone-view-source&text=%E3%80%90iPhone%E3%80%91%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AEHTML%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92Safari%E3%82%84View+Source%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%EF%BD%9C%E3%81%BD%E3%81%93%E3%81%BF%E3%81%A1%E6%97%A5%E5%92%8C&via=pokomichi_apple" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fab fa-twitter"></i>            <span class="share_txt">ツイート</span>
+          </a>
+                  </li>
+        <!-- facebook -->
+        <li class="fb sns-btn__item">
+          <a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fpokomichi.com%2Fiphone-view-source" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fab fa-facebook"></i>            <span class="share_txt">シェア</span>
+          </a>
+                  </li>
+        <!-- はてなブックマーク -->
+        <li class="hatebu sns-btn__item">
+          <a href="http://b.hatena.ne.jp/add?mode=confirm&url=https%3A%2F%2Fpokomichi.com%2Fiphone-view-source&title=%E3%80%90iPhone%E3%80%91%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AEHTML%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92Safari%E3%82%84View+Source%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%EF%BD%9C%E3%81%BD%E3%81%93%E3%81%BF%E3%81%A1%E6%97%A5%E5%92%8C" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fa fa-hatebu"></i>
+            <span class="share_txt">はてブ</span>
+          </a>
+                  </li>
+        <!-- LINE -->
+        <li class="line sns-btn__item">
+          <a href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fpokomichi.com%2Fiphone-view-source&text=%E3%80%90iPhone%E3%80%91%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AEHTML%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92Safari%E3%82%84View+Source%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%EF%BD%9C%E3%81%BD%E3%81%93%E3%81%BF%E3%81%A1%E6%97%A5%E5%92%8C" target="_blank" rel="nofollow noopener noreferrer">
+                          <i class="fab fa-line"></i>
+                        <span class="share_txt share_txt_line dfont">LINE</span>
+          </a>
+        </li>
+        <!-- Pocket -->
+        <li class="pkt sns-btn__item">
+          <a href="http://getpocket.com/edit?url=https%3A%2F%2Fpokomichi.com%2Fiphone-view-source&title=%E3%80%90iPhone%E3%80%91%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AEHTML%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%92Safari%E3%82%84View+Source%E3%82%A2%E3%83%97%E3%83%AA%E3%81%A7%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95%EF%BD%9C%E3%81%BD%E3%81%93%E3%81%BF%E3%81%A1%E6%97%A5%E5%92%8C" target="_blank" rel="nofollow noopener noreferrer">
+            <i class="fab fa-get-pocket"></i>            <span class="share_txt">Pocket</span>
+          </a>
+                  </li>
+      </ul>
+  </div>
+      </div>
+  <script>
+jQuery(document).ready(function() {
+  jQuery(".archive a[href = '#sng_share']").closest('li').css('display','none');
+  jQuery(".fixed-menu a[href = '#']").click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, 300);
+  })
+  jQuery("a[href = '#sng_share']").click(function(event) {
+    event.preventDefault();
+    jQuery(".fixed-menu__share , a[href = '#sng_share']").toggleClass("active");
+    jQuery(".fixed-menu__follow, a[href = '#sng_follow']").removeClass("active");
+  })
+  jQuery("a[href = '#sng_follow']").click(function(event) {
+    event.preventDefault();
+    jQuery(".fixed-menu__follow, a[href = '#sng_follow']").toggleClass("active");
+    jQuery(".fixed-menu__share, a[href = '#sng_share']").removeClass("active");
+  })
+});
+</script>
+      </body>
+</html>
